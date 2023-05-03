@@ -1,0 +1,40 @@
+{
+  "wallets": [
+    {
+      "name": "wallet-0",
+      "mnemonic": "text shaft wife say kitten alert disorder embark wild choose train silent clinic blade jewel romance leader abandon soup web tooth decorate puppy net",
+      "privateKey": "cPajR9FCiNJ1eGd4sF92G8kNW8XCg6NxSpk6sJMEePahh1smk4s7",
+      "xpub": "tpubDFFWmGzdmrxG3g97rXpFVu9zUrkrReQvWujATBtrVv1X2P9yS5fKnmomfVkhWh661hWsgCDfWEFnBwWB7TA7NQBiD2MGwVWeJ2VMTVZLBYa",
+      "address": "tb1qstegy523g9l4z35z4sr7kmt9c3ysrcxqzsxt6z",
+      "incoming": "0.01495487",
+      "outgoing": "0.01467295",
+      "incomingPending": "0",
+      "outgoingPending": "0",
+      "balance": 0.00028191999999999974
+    },
+    {
+      "name": "wallet-1",
+      "mnemonic": "bag slogan casino wagon cherry lawn crane fault sport thank minor rain youth wide diesel snow trust captain vocal alter another review person endorse",
+      "privateKey": "cTgid6cwAgVVrmpMr16c2Rae87RS6U9kVg68dnPooWMJoDYL2xuZ",
+      "xpub": "tpubDFcykWg9c9zRFGwemHjaaq7f263Ns2gzFVKgHyfNJytdp7grW6HNaK9xmJcEnhbYy2ojFENzXQ3suCqKNCbmXKNd7Q3J8v8pynd5hgSYQYQ",
+      "address": "tb1q5zmwxxn4wlqtqdlswl5awjsqyhqg0tapd8xfpg",
+      "incoming": "0.03680508",
+      "outgoing": "0.02922575",
+      "incomingPending": "0.01575073",
+      "outgoingPending": "0.01779039",
+      "balance": 0.007579329999999995
+    },
+    {
+      "name": "wallet-2",
+      "mnemonic": "cereal deliver oval unique tone measure message minimum fan inquiry syrup nominee clay lizard size violin income duty where leopard foot give shove slide",
+      "privateKey": "cNivK6aGnsfFG3kraBou3wiMBTKTfsjUjnVps7SNz2gLjBwpUDH1",
+      "xpub": "tpubDEdHDBAv5vcpAJmaJSzXfY82oQAFWLa3ZMmdL4u9vya2G9FKBqp8AkXDbrRvFQhBZuWb8Paoq1KxuqwZrVY3UFsNVXwAAg9n9XL4zvJn3Nw",
+      "address": "tb1qrktc77kw0cuuyp47cr95rgdq7xe6l740aw2utc",
+      "incoming": "0.004",
+      "outgoing": "0",
+      "incomingPending": "0.002",
+      "outgoingPending": "0",
+      "balance": 0.004
+    }
+  ]
+}
