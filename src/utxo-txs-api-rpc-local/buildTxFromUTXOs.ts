@@ -24,7 +24,7 @@ const senderAddress = 'tb1q5zmwxxn4wlqtqdlswl5awjsqyhqg0tapd8xfpg'
 const senderPrivateKey = 'cTgid6cwAgVVrmpMr16c2Rae87RS6U9kVg68dnPooWMJoDYL2xuZ'
 const recieverAddress = 'tb1qrktc77kw0cuuyp47cr95rgdq7xe6l740aw2utc'
 // amount to send
-const totalValue: number = 0.001
+const totalValue: number = 0.00001
 
 
 async function getUtxos(): Promise<UtxosItem[]> {
@@ -45,18 +45,19 @@ async function getUtxos(): Promise<UtxosItem[]> {
         }
     );
 
-    try {
-        const utxoJson: UtxosItem[] = await utxosResponse.json() as UtxosItem[];
-        const utxos = utxoJson.map(utxo => ({
-            txHash: utxo.txHash,
-            index: utxo.index,
-            value: utxo.value
-        }));
-        return utxos;
-    } catch (error) {
-        console.error("Error parsing or validating utxosResponse:", error);
-        throw error;
-    } 
+    const utxoJson = await utxosResponse.json();
+
+    if (!Array.isArray(utxoJson)) {
+        throw new Error("utxoJson is not an array. Received:" + JSON.stringify(utxoJson));
+    }
+
+    const utxos: UtxosItem[] = utxoJson.map(utxo => ({
+        txHash: utxo.txHash,
+        index: utxo.index,
+        value: utxo.value
+    }));
+
+    return utxos;
 }
 async function estimateFee(utxos: UtxosItem[]): Promise<number> {
     const feesResponse = await fetch(

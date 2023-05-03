@@ -13,7 +13,7 @@ async function main() {
   const fileContent = await fs.readFile('./src/utxo-txs-api-rpc-local/wallets.json', 'utf-8');
   const walletFile = JSON.parse(fileContent);
 
-  const apiKey = '6fcc0b52-0069-4024-a00d-b3c050e66090';
+  const apiKey = '';
   const addresses = walletFile.wallets.map(wallet => wallet.address).join(',');
 
   const query = new URLSearchParams({

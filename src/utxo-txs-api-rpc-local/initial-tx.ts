@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import fs from 'fs/promises';
 
-const apiKey = '6fcc0b52-0069-4024-a00d-b3c050e66090';
+const apiKey = '';
 const senderAddress = 'tb1qstegy523g9l4z35z4sr7kmt9c3ysrcxqzsxt6z'
 const senderPrivateKey = 'cPajR9FCiNJ1eGd4sF92G8kNW8XCg6NxSpk6sJMEePahh1smk4s7'
 const recieverAddress = 'tb1q5zmwxxn4wlqtqdlswl5awjsqyhqg0tapd8xfpg'
