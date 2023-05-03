@@ -116,4 +116,4 @@ change = totalInputAmount - totalValue - fee
 
 - Resources
     
-    [s](https://github.com/tatumio/tatum-js/tree/v2/examples/btc-example/src/app)
+    [official btc-examples](https://github.com/tatumio/tatum-js/tree/v2/examples/btc-example/src/app)
