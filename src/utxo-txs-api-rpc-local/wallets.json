@@ -18,11 +18,11 @@
       "privateKey": "cTgid6cwAgVVrmpMr16c2Rae87RS6U9kVg68dnPooWMJoDYL2xuZ",
       "xpub": "tpubDFcykWg9c9zRFGwemHjaaq7f263Ns2gzFVKgHyfNJytdp7grW6HNaK9xmJcEnhbYy2ojFENzXQ3suCqKNCbmXKNd7Q3J8v8pynd5hgSYQYQ",
       "address": "tb1q5zmwxxn4wlqtqdlswl5awjsqyhqg0tapd8xfpg",
-      "incoming": "0.03680508",
+      "incoming": "0.03696681",
       "outgoing": "0.02922575",
-      "incomingPending": "0.01575073",
-      "outgoingPending": "0.01779039",
-      "balance": 0.007579329999999995
+      "incomingPending": "0.00016173",
+      "outgoingPending": "0",
+      "balance": 0.007741060000000001
     },
     {
       "name": "wallet-2",
@@ -32,7 +32,7 @@
       "address": "tb1qrktc77kw0cuuyp47cr95rgdq7xe6l740aw2utc",
       "incoming": "0.004",
       "outgoing": "0",
-      "incomingPending": "0.002",
+      "incomingPending": "0",
       "outgoingPending": "0",
       "balance": 0.004
     }
